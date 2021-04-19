@@ -43,16 +43,4 @@ footer:
         - label: FAQ
           page: faq.md
         - label: Contact us
-          page: contact.mdx
-auth:
-  #claimsPreprocessor: ./claims.js
-  idps:
-    main:
-      type: oidc
-      loginWith: OIDC
-      configurationUrl:	https://idp-admin.viesure.io/nidp/oauth/nam/.well-known/openid-configuration
-      clientId: 395f7f36-ea45-4ad3-83cc-c75b70ea077b
-      scopes:
-        - openid
-        - name
-        - family_name          
+          page: contact.mdx       
